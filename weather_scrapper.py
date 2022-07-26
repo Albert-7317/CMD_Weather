@@ -16,9 +16,13 @@ result_location = soup.find("div", {"id":"wr-forecast"})
 
 current_location = result_location.find("h1", {"id":"wr-location-name-id"}).text
 
-print("your cuurent location is ",current_location)
-print("the current conditions are ",current_condition)
-print("and the current temprature is ",current_temp)
+print("-------------------------------------------------------------|")
+print("| your curent location is: ",current_location)
+print("-------------------------------------------------------------|")
+print("| The current conditions are: ",current_condition)
+print("-------------------------------------------------------------|")
+print("| and the current temprature is: ",current_temp)
+print("-------------------------------------------------------------|")
 print("          ,$Y$$$$Y$")
 print("         $$,   ,+$P,")
 print("        $,      $Y,")
