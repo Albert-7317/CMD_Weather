@@ -1,7 +1,4 @@
-# CMD_Weather
+# Weather Shrimp
+Weather shrimp is a command line pyhon scrapper that gives the user a current weather report. 
 
-This is a simple weather tool. You run the command it checks a weather websites and returns the current temprature and conditions
-
-Currently it is default set to read the current weather at the default location of the user since that is how the website works. The tool does also return your current location
-
-I am working on adding a nicer display (will still be commandline based) 
+Weather shrimp will use ur currently set location via the bc weather website to get all the information quickly and display them in your command line
